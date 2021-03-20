@@ -16,6 +16,7 @@ class Waiter {
         this.waiting = true;
     }
     clear() {
+        this.waiting = false;
         this.resolves = [];
         this.rejects = [];
     }

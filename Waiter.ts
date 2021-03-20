@@ -17,6 +17,7 @@ export default class Waiter<T = void> {
     }
 
     public clear() {
+        this.waiting = false;
         this.resolves = [];
         this.rejects = [];
     }

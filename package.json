@@ -2,7 +2,7 @@
     "name": "@hanul/waiter",
     "author": "Sim Young Jae",
     "homepage": "https://github.com/Hanul/waiter",
-    "version": "0.0.7",
+    "version": "0.0.1",
     "types": "./Waiter.d.ts",
     "main": "./Waiter.js"
 }
